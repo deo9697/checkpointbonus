@@ -12,8 +12,10 @@ public class Main {
 
         Docente docente1 = new Docente("Mario", "Rossi", 40, "001");
         Docente docente2 = new Docente("Giulia", "Bianchi", 35, "002");
-        Docente docente3 = new Docente("Mario" , "Ritaglio" , 61 , "003");
+       // Docente docente3 = new Docente("Mario" , "Ritaglio" , 61 , "003");
+
         // Creazione di un progetto con alcuni membri
+
         Progetto progetto1 = new Progetto("Progetto1", "Descrizione progetto 1");
         progetto1.aggiungiMembro(docente1);
         progetto1.aggiungiMembro(docente2);
